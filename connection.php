@@ -1,7 +1,7 @@
 <?php
 	error_reporting(0);
 	session_start();
-	$servername = "localhost";
+	$servername = "db";
 	$username 	= "root";
 	$password 	= "password";
 	$db_name 	= "inventory_system";
@@ -13,5 +13,5 @@
 	header("Content-Type: text/html; charset=utf-8");
 	mysqli_set_charset($conn,"utf8");
 		
-	define('SITE_URL','http://localhost/inventory-system/');
+	define('SITE_URL','http://db/inventory-system/');
 ?>
