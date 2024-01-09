@@ -1,7 +1,7 @@
 <?php
 	error_reporting(0);
 	session_start();
-	$servername = "db";
+	$servername = "mysql.iv1.svc.cluster.local";
 	$username 	= "root";
 	$password 	= "password";
 	$db_name 	= "inventory_system";
